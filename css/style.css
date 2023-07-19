@@ -1,0 +1,57 @@
+body{
+  font-family: 'Roboto', sans-serif;
+}
+.todo_environment{
+ text-align: center;
+}
+.todo_innerEnvironment{
+  background-color: antiquewhite;
+  width: 50rem;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+/* design for add_to_do panel */
+.add_to_do{
+  display: flex;
+  align-items: center;
+  margin: 2rem;
+}
+.display_todo{
+  margin: 2rem;
+}
+.display_single_todo{
+  margin-top: 0.5rem;
+}
+#addNewItem,#displayEachTodo{
+  padding: 1rem;
+  font-size: larger;
+  width: 28rem;
+}
+#addNewTaskButton{
+width: 12rem;
+}
+button{
+  height: 3.7rem;
+  border-radius: .3rem;
+}
+
+/* desing for the display_todo panel  */
+
+.checked input[type=text]{
+  text-decoration: line-through;
+}
+
+.display_single_todo{
+  display: flex;
+}
+.edit,.delete{
+  width:5.1rem;
+}
+.delete{
+  background-color: red;
+  color: white;
+}
+#checkTodo{
+  line-height: 2rem;
+}
